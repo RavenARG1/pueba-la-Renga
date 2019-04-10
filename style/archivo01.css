@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor{
+    width: 60%;
+    margin: auto;
+
+}
+
+header{
+    background: black;
+    padding: 10px 0;
+}
+
+header h1{
+    display:inline-block;
+    width: 90px;
+    height: 95px;
+    vertical-align: top;
+}
+
+header h1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagenes/la\ renga\ logo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+header nav .menu li{
+    display: inline-block;
+    margin: 0px 5px;
+    position: relative;
+    font-weight: 300;
+}
+
+header nav .menu .submenu{
+    position: absolute;
+    display:none;
+}
+
+header nav .menu li:hover .submenu{
+    display: block;
+}
+
+header nav .menu li a{
+    color: #fff;
+    text-decoration: uppercase;
+}
+
+
+
+header nav .menu .submenu li{
+    display: block;
+    margin:0;
+}
+
+section p{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.la_renga{
+    font-family: 'Metal Mania', cursive;
+    font-size: 5rem
+    
+}
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+    right: 50px;
+}
+
+.parrafos{
+    margin: 0 auto 40px;
+    width: 15%;
+}
+
+.subir{
+    display: inline-block;
+    padding: 20px 10px;
+    bottom:50px;
+    position: fixed;
+
+    right: 50px;
+}
+
+.foto_grande {
+
+    width: 100%;
+    background-size: cover;
+}
+
+
+
