@@ -26,8 +26,8 @@ header{
 
 header h1{
     display:inline-block;
-    width: 90px;
-    height: 95px;
+    width: 80px;
+    height: 55px;
     vertical-align: top;
 }
 
@@ -44,13 +44,19 @@ header h1 a{
 header nav{
     float: right;
     margin-top: 40px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header nav .menu li{
     display: inline-block;
     margin: 0px 5px;
     position: relative;
+    
+}
+
+header nav .menu li a{
+    color:#fff;
+    text-decoration: uppercase;
     font-weight: 300;
 }
 
@@ -59,16 +65,9 @@ header nav .menu .submenu{
     display:none;
 }
 
-header nav .menu li:hover .submenu{
+header nav .menu li:hover .submenu {
     display: block;
 }
-
-header nav .menu li a{
-    color: #fff;
-    text-decoration: uppercase;
-}
-
-
 
 header nav .menu .submenu li{
     display: block;
